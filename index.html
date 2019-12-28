@@ -1,60 +1,158 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MLOps2020</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#cfp">Call for papers</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#program">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#org">Organization</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Workshop on MLOps Systems</h1>
+          <p class="lead">To be held along with <a href="https://mlsys.org/"> Third Conference on Machine Learning and Systems (MLSys) </a> </P>
+          <h3> Austin, TX </h3>
+          <h3> March 4, 2020 </h3>
+        </div>
+      </div>
+    </div>
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lc-12 text-center">
+          <h1 class="mt-5"> About </h1>
+          <p class="lead" align="justify"> 
+           Due to the complexity in putting ML into production, the actual machine learning capability is a small part of a complex system and its lifecycle. This new evolving field is known as MLOps. Informally MLOps typically refers to the collaboration between data scientists and operations engineers (e.g. SRE) to manage the lifecycle of ML within an organization. This space is new and has yet to be explored from a research perspective. 
+         </p>
+         <p class="lead" align="justify">
+          In this workshop we aim to cover research problems in MLOps, including the systems and ML challenges involved in this process. We will also cover the software engineering questions including specification, testing and verification of ML software systems. We will bring together a wide variety of experts from both industry and academia, covering persona ranging from data scientists to machine learning engineers. 
+          </p>
+        </div>
+      </div>
+    </div>
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-</head>
-<body>
 
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#cfp">Cal For Papers</a>
-  <a href="#pro">Program</a>
-  <a href="#org">Organization</a>
-</div>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 id="cfp"> Call for Papers </h2>
+          <p class="lead" align="justify">
+            We solicit short/position papers (2 pages + references).
+            The page limit includes figures, tables, and appendices, but excludes references. 
+            Please use standard LaTeX or Word ACM templates. 
+            All submissions will need to be made via EasyChair (<a href="https://easychair.org/conferences/?conf=mlops20">
+            submission website</a>)
+         </p>
+         <p class="lead" align="justify">
+          Topics that are relevant to this workshop include 
+          <ul>
+            <li> <p align="left">ML model specification</li>
+            <li> <p align="left">ML model management </li>
+            <li> <p align="left">ML model or Concept drift/change detection</li>
+            <li> <p align="left">ML training pipelines specification, verification</li>
+            <li> <p align="left">ML model monitoring</li>
+            <li> <p align="left">ML model serving techniques and systems</li>
+            <li> <p align="left">ML model specification</li>
+            <li> <p align="left">ML Experiment tracking and management</li>
+            <li> <p align="left">System design for metadata management systems</li>
+            <li> <p align="left">Audits, assurance, security and compliance for MLOps.</li>
+            <li> <p align="left">ML CI/CD</li>
+            <li> <p align="left">Scheduling and Cost Optimization of ML workflows</li>
+            <li> <p align="left">Debugging ML workflows and pipelines</li>
+            <li> <p align="left">Hyperparameter tuning systems</li>
+            <li> <p align="left">MLops for Federated, Split and Distributed Learning</li> 
+          </ul>
+         </p>
+         <p class="lead" align="justify">
+          <br><br>
+          <h2> Important dates </h2>
+          <br>
+          <p align="left">
+            <font color='red'> Paper submission deadline: January 15, 2020</font><br>
+            Author Notification: January 27, 2020 <br>
+            Camera-ready papers due: February 21, 2020 <br>
+            Workshop Date: (tentative) March 4, 2020 <br>
+            All deadlines are at midnight anywhere on earth (AoE), and are firm.</P>
+          </p> 
+        </div>
+      </div>
+    </div>
 
-<div style="padding-left:16px">
-  <h2>Workshop on MLOps Systems</h2>
-  <p>
-  Due to the complexity in putting ML into production, the actual machine learning capability is a small part of a complex system and its lifecycle. This new evolving field is known as MLOps. Informally MLOps typically refers to the collaboration between data scientists and operations engineers (e.g. SRE) to manage the lifecycle of ML within an organization. This space is new and has yet to be explored from a research perspective. </>
-  <p>
+    <!-- Page Content -->
+    <div class="container" id="A">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="mt-5" id="program"> Program </h1>
+          <p class="lead" align="justify"> TBA</p>
+        </div>
+      </div>
+    </div>
 
-In this workshop we aim to cover research problems in MLOps, including the systems and ML challenges involved in this process. We will also cover the software engineering questions including specification, testing and verification of ML software systems. We will bring together a wide variety of experts from both industry and academia, covering persona ranging from data scientists to machine learning engineers.
-  
-  </p>
-</div>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="mt-5" id="org"> Organization </h2>
+          <br>
+          <p class="lead" align="justify">Organizing Committee</p>
+          <ul>
+            <li> <p align="left"> Debo Dutta, Cisco Systems       </p> </li>
+            <li> <p align="left"> Ce Zhang, ETH Zurich    </p></li>
+            <li> <p align="left"> Matei Zaharia, Stanford University      </p></li>
+          </ul>
+          <br>
+          <p class="lead" align="justify">Program Committee</p>
+          <ul>
+            <li> <p align="left"> Debo Dutta, Cisco Systems 			</p> </li>
+            <li> <p align="left"> Ce Zhang, ETH Zurich 		</p></li>
+            <li> <p align="left"> Matei Zaharia, Stanford University 			</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-
